@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Header from "./components/Header";
+import Header from "./components/header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import ContactMe from "./components/ContactMe";
@@ -8,28 +8,28 @@ import Footer from "./components/Footer";
 import "./assets/styles/App.css";
 
 function App() {
-  const [currentComponent, setCurrentComponent] = useState(AboutMe);
+  const [currentComponent, setCurrentComponent] = useState("AboutMe");
 
   const handleComponentChange = (event) => {
-    let componentName = event.target.textContent.trim();
-    console.log(componentName);
-    setCurrentComponent(componentMap[componentName]);
+    const newComponent = event.target.textContent;
+    setCurrentComponent(componentMap[newComponent])
   }
+  
 
   const componentMap = {
-    'About Me': AboutMe,
-    'Portfolio': Portfolio,
-    'Contact Me': ContactMe,
-    'Resume': Resume,
+    'About Me': "AboutMe",
+    'Portfolio': "Portfolio",
+    'Contact Me': "ContactMe",
+    'Resume': "Resume",
   };
 
   return (
     <div>
       <Header onClickComponentChange={handleComponentChange}/>
-      {currentComponent === AboutMe && <AboutMe/>} 
-      {currentComponent === Portfolio && <Portfolio/>}
-      {currentComponent === ContactMe && <ContactMe/>}
-      {currentComponent === Resume && <Resume/>}
+      {currentComponent === "AboutMe" && <AboutMe/>} 
+      {currentComponent === "Portfolio" && <Portfolio/>}
+      {currentComponent === "ContactMe" && <ContactMe/>}
+      {currentComponent === "Resume" && <Resume/>}
       <Footer/>
     </div>
   )

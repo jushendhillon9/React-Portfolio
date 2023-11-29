@@ -3,7 +3,7 @@ import "../assets/styles/Header.css";
 function Header({ onClickComponentChange }) {
     return (
         <header className="header">
-            <h1 id="lernantino">Lernantino</h1>
+            <h1 id="lernantino">Jushen Dhillon</h1>
             <div className="navbar">
                 <ul>
                     <li onClick={onClickComponentChange}>About Me</li>

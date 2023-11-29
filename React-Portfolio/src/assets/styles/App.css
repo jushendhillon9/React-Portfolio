@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: beige;
+}
+
+.linebreak {
+    height: 2px;
+    flex-basis: 100%;
+}

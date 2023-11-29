@@ -1,0 +1,65 @@
+#contactMeContainer {
+    background-color: beige;
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#contactHeader {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px;
+}
+
+#formContainer {
+    background-color: black;
+    color: beige;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 0px;
+    padding: 5px;
+}
+
+#nameContainer, #emailContainer, #messageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+#nameInput, #emailInput, #messageInput {
+    width: 75%;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: beige;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#messageInput {
+    height: 200px;
+    padding-top: 5px;
+}
+
+.label {
+    margin: 5px;
+}
+
+#submitButton {
+    background-color: beige;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 50px;
+}

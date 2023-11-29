@@ -1,0 +1,35 @@
+#aboutMeContainer {
+    background-color: beige;
+    height: 70vh;
+}
+
+#aboutMeSection {
+    margin-left: 100px;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#aboutMe {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px;
+    margin-left: 0px;
+}
+
+#userIcon {
+    width: 140px;
+    height: 140px;
+    margin: 40px;
+    margin-left: 0px;
+}
+
+#aboutMeDescription {
+    color: black;
+    font-size: 23px;
+    margin: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+}

@@ -1,0 +1,28 @@
+#portfolio {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: beige;
+    padding-top: 20px;
+    margin-bottom: -30px;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+
+#portfolioProjectsContainer {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project {
+    margin: 90px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.projectImage {
+    width: 450px;
+    height: 230px;
+}

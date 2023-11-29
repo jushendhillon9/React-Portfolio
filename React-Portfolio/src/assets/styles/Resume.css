@@ -1,0 +1,43 @@
+#resumeContainer {
+    margin-bottom: 70px;
+}
+
+#resumeHeader {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#resumeLink {
+    margin-left: 5px;
+}
+
+#frontEnd, #backEnd {
+    font-size: 20px;
+}
+
+#resumeDownload {
+    margin: 20px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+#resumeDownload, #frontEndSkills, #backEndSkills {
+    position: relative;
+    left: 30px;
+}
+
+#frontEnd, #backEnd {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+#frontEndSkills {
+    margin-bottom: 30px;
+}
+
+#frontEndSkills ul, #backEndSkills ul{
+    position: relative;
+    left: 30px;
+}

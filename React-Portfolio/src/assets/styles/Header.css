@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    background-image: url("/02-hero-bg.jpg");
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#lernantino {
+    color: orangered;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.navbar {
+    color: orangered;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.navbar ul li {
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
